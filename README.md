@@ -1,4 +1,4 @@
-NOTE: this file was copied from a [gist owned by GitHub user speric](https://gist.github.com/speric/31ae0987d21eac1d4f87)
+NOTE: This file was copied from [here](https://gist.github.com/speric/31ae0987d21eac1d4f87).
 
 #### Chapter 1 - Object Oriented Design
 
