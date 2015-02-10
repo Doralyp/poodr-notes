@@ -46,7 +46,7 @@ The more one class knows about another, the more tightly it is <i>coupled</i>.
 
 >Test-to-code over-coupling has the same consequence as code-to-code over-coupling.
 
-** Isolate dependencies:**
+**Isolate dependencies:**
 * Isolate instance creation
 * Isolate vulnerable external messages
 * Remove argument-order dependences
