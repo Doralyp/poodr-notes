@@ -46,6 +46,14 @@ The more one class knows about another, the more tightly it is <i>coupled</i>.
 
 >Test-to-code over-coupling has the same consequence as code-to-code over-coupling.
 
+Isolate dependencies:
+* Isolate instance creation
+* Isolate vulnerable external messages
+* Remove argument-order dependences
+** Use hashes for initialization arguments
+** Explicitly define defaults
+** Isolate multi-parameter initialization
+
 Factory: an object whose purpose is to create other objects.
 
 >Depend on things that change less often than you do.
@@ -55,6 +63,8 @@ Factory: an object whose purpose is to create other objects.
 * Changing a class that has many dependents will result in widespread consequences
 
 Abstraction in Ruby = duck typing; depending on an interface (objects will respond to methods) rather than a concrete class implementation.
+
+
 
 #### Chapter 4 - Creating Flexible Interfaces
 
