@@ -50,9 +50,9 @@ The more one class knows about another, the more tightly it is <i>coupled</i>.
 * Isolate instance creation
 * Isolate vulnerable external messages
 * Remove argument-order dependences
-..* Use hashes for initialization arguments
-..* Explicitly define defaults
-..* Isolate multi-parameter initialization
+    * Use hashes for initialization arguments
+    * Explicitly define defaults
+    * Isolate multi-parameter initialization
 
 Factory: an object whose purpose is to create other objects.
 
